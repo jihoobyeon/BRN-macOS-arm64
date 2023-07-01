@@ -55,7 +55,7 @@ static NSMutableArray* activeTouches = [NSMutableArray new];
 }
 
 + (void)updateView:(MTKView*)mtkView {
-    const CGFloat scale = mtkView.contentScaleFactor;
+    const CGFloat scale = 1.0;
     const int width = static_cast<int>(mtkView.bounds.size.width * scale);
     const int height = static_cast<int>(mtkView.bounds.size.height * scale);
     if (width != 0 && height != 0) {
