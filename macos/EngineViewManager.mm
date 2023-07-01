@@ -5,7 +5,7 @@
 #import <ReactCommon/CallInvoker.h>
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 #import <MetalKit/MetalKit.h>
 
 @interface EngineView : MTKView
