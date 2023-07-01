@@ -82,7 +82,7 @@ static NSMutableArray* activeTouches = [NSMutableArray new];
 + (bool)isXRActive {
     return BabylonNative::IsXRActive();
 }
-
+/*
 + (void)reportTouchEvent:(MTKView*)mtkView touches:(NSSet<UITouch*>*)touches event:(UIEvent*)event {
     for (UITouch* touch in touches) {
         if (touch.view == mtkView) {
@@ -129,6 +129,6 @@ static NSMutableArray* activeTouches = [NSMutableArray new];
             }
         }
     }
-}
+} */
 
 @end
