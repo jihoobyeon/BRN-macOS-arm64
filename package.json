@@ -28,10 +28,10 @@
     "semver": "^7.3.2"
   },
   "peerDependencies": {
-    "@babylonjs/react-native": "1.6.1",
+    "@babylonjs/react-native": ">=1.6.1",
     "react": ">=16.13.1",
     "react-native": ">=0.71.0",
-    "react-native-macos": "^0.71.0"
+    "react-native-macos": ">=0.71.0"
   },
   "devDependencies": {
     "@rnw-scripts/eslint-config": "0.1.6",
